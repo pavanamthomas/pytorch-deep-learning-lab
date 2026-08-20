@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it as below.
+title: pytorch-deep-learning-lab
+authors:
+  - family-names: Thomas
+    given-names: Pavanam
+    email: thomaspavanam@gmail.com
+license: MIT
+repository-code: https://github.com/pavanamthomas/pytorch-deep-learning-lab
+url: https://github.com/pavanamthomas/pytorch-deep-learning-lab
+abstract: >
+  Neural-network mathematics connected to a transparent NumPy multilayer
+  perceptron and checked against PyTorch autograd. Finite-difference
+  gradient checks, designed failure cases (vanishing and exploding
+  gradients, dead ReLU, BatchNorm train/eval mismatch, class imbalance),
+  and tiny synthetic models. Not a pretrained-model zoo and not an
+  empirical benchmark.
+keywords:
+  - deep learning
+  - backpropagation
+  - autograd
+  - finite differences
+  - PyTorch
+  - NumPy
+  - initialization
+  - optimization
+version: 0.1.0
+date-released: "2026-08-20"
