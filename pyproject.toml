@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dllab"
+version = "0.1.0"
+description = "Neural-network mathematics, a transparent NumPy implementation, and PyTorch autograd checks on synthetic DGPs."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Dr. Pavanam Thomas", email = "thomaspavanam@gmail.com" },
+]
+keywords = [
+    "deep learning",
+    "backpropagation",
+    "autograd",
+    "finite differences",
+    "PyTorch",
+    "NumPy",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "pytest>=7.4",
+    "torch>=2.1",
+]
+
+[project.optional-dependencies]
+cpu = [
+    "torch>=2.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/pavanamthomas/pytorch-deep-learning-lab"
+Repository = "https://github.com/pavanamthomas/pytorch-deep-learning-lab"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
