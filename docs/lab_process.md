@@ -18,5 +18,3 @@ The public queue is GitHub Issues. The bound on that queue is `ROADMAP.md`.
 Do not treat a green badge as a correction. A correction is a change in
 estimator, specification, or interpretation, locked by a test or by an
 explicit limitation statement.
-
-**Problem → formalization → assumptions → computation → validation → interpretation → limitations.**
