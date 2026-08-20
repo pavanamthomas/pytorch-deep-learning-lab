@@ -97,7 +97,7 @@ CI installs CPU PyTorch, installs the package, runs `pytest`, and runs
 
 Related laboratories: [statistical-reasoning-validation](https://github.com/pavanamthomas/statistical-reasoning-validation), [econometrics-causal-inference-lab](https://github.com/pavanamthomas/econometrics-causal-inference-lab).
 
-## Open questions
+## Remaining derivative-check bounds
 
 Complex-step derivatives are not implemented; the default check is real
 central differences. Residual networks, LayerNorm, and learning-rate
